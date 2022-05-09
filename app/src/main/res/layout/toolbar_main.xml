@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:theme="@style/ToolbarTheme"
+        android:layout_gravity="center_vertical"
+        app:navigationIcon="@null"
+        app:subtitle="@string/movies"
+        app:subtitleTextColor="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/toolbarTitle"
+        >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_align_horizontal_right_24"
+/>
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
