@@ -6,8 +6,6 @@ This project has implemented following:
 
 ##### *Hilt dependency for Dependency injection
 
-##### *Room Database for offline Storage
-
 ##### *MVVM architecture
 
 ##### *Kotlin coroutine
